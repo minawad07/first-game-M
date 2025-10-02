@@ -21,18 +21,17 @@
         android:id="@+id/buttonLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="88dp"
         android:text="Left"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonRight"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUp" />
 
     <Button
         android:id="@+id/buttonDown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="83dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="44dp"
         android:text="Down"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -41,8 +40,8 @@
         android:id="@+id/buttonRight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="71dp"
-        android:layout_marginBottom="131dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="92dp"
         android:text="Right"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -51,9 +50,17 @@
         android:id="@+id/imageView2"
         android:layout_width="120dp"
         android:layout_height="73dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="404dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/hkh" />
+
+    <FrameLayout
+        android:layout_width="357dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="40dp">
+
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
